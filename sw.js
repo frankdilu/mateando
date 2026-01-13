@@ -2,7 +2,9 @@ const CACHE = 'ronda-cache-v1';
 const PRECACHE_URLS = [
   '/',
   '/index.html',
-  '/manifest.json'
+  '/manifest.json',
+  '/image-192.png',
+  '/image-512.png'
 ];
 
 self.addEventListener('install', event => {
